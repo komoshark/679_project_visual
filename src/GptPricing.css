@@ -1,0 +1,26 @@
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+}
+
+.price-table th,
+.price-table td {
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Add border-bottom to th to ensure the header has a bottom border */
+.price-table thead th {
+  border-bottom: 1px solid black;
+  background-color: #f2f2f2;
+}
+
+/* Ensure the last row has a bottom border */
+.price-table tbody tr:last-child td {
+  border-bottom: 1px solid black;
+}
